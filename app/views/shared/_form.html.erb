@@ -1,0 +1,7 @@
+<%= simple_form_for @play do |form| %>
+<%= form.input :title, label: "Play Title" %>
+  <%= form.input :description %>
+  <%= form.input :director %>
+  <%= form.button :submit, class: "btn btn-danger" %>
+
+<% end %>
